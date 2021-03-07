@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Secured endpoint";
+}
+<h2>Secure</h2>
+
+Claims:
+<dl>
+    @foreach (var claim in User.Claims)
+    {
+        <dt>@claim.Type</dt>
+        <dd>@claim.Value</dd>
+    }
+</dl>
+
+Token: @ViewData["access_token"]

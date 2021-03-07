@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30615.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hydra-login-consent-aspnet", "hydra-login-consent-aspnet\hydra-login-consent-aspnet.csproj", "{DCCAE2F6-91F6-45AD-ABD7-52EBD368A0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hydra-login-test-aspnet", "hydra-login-test-aspnet\hydra-login-test-aspnet.csproj", "{73EC3217-6CE0-49F7-A183-408A9D7FD0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCCAE2F6-91F6-45AD-ABD7-52EBD368A0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCAE2F6-91F6-45AD-ABD7-52EBD368A0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCAE2F6-91F6-45AD-ABD7-52EBD368A0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCAE2F6-91F6-45AD-ABD7-52EBD368A0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EC3217-6CE0-49F7-A183-408A9D7FD0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EC3217-6CE0-49F7-A183-408A9D7FD0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EC3217-6CE0-49F7-A183-408A9D7FD0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EC3217-6CE0-49F7-A183-408A9D7FD0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3CF0482-EED2-4C04-8403-F3D747EE2153}
+	EndGlobalSection
+EndGlobal
