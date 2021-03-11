@@ -37,3 +37,12 @@ This assumes you have running on localhost in the default ports:
 
 Run both `hydra-login-consent-aspnet` and `hydra-login-test-aspnet` from Visual Studio and go to http://localhost:15001/Home/Secure in the test application to be redirected to the consent application (http://localhost:15000/). In the consent application you will be able to signup or login and then be redirected back to the test application to see your token.
 
+#### Running Hydra
+
+Since this project was made for a RaspberryPI an ARMv7 executable was used for running Hydra.
+
+For running the container:
+
+```bash
+ docker build -t hydra . && docker run --detach --name hydra-standalone hydra
+```
