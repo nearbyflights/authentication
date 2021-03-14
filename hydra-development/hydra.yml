@@ -7,7 +7,7 @@ log:
     
 urls:
   self:
-    issuer: http://localhost:4444
+    issuer: https://login-nearbyflights.fagnercarvalho.com
   consent: http://localhost:15000/consent
   login: http://localhost:15000/login
   logout: http://localhost:15000/logout
